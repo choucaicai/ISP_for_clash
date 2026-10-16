@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clash ISP 配置"
+  short_description: "为指定 Clash 订阅添加 ISP 代理、地区中继与网站分流，并验证出口"
+  default_prompt: "使用 $clash-isp，把我提供的 ISP 代理添加到指定 Clash 订阅和分组，设置地区匹配的中继并验证出口。"

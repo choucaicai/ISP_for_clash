@@ -1,0 +1,23 @@
+# Local secrets and generated Clash configuration must never be committed.
+.env
+.env.*
+!.env.example
+request.json
+manifest.json
+plan.json
+profiles.yaml
+clash-verge.yaml
+clash-verge-check.yaml
+/profiles/
+/backups/
+/private/
+/staging/
+/new-bundle/
+
+# Local runtimes and generated files.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
